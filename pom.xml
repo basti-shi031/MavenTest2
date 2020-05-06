@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>MavenTest2</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <repositories>
+        <repository>
+            <!-- id必须唯一 -->
+            <id>jboss-repository</id>
+            <!-- 见名知意即可 -->
+            <name>jboss repository</name>
+            <!-- 仓库的url地址 -->
+            <url>http://repository.jbos123123s.org/nexus/content/groups/public-jboss/</url>
+        </repository>
+
+        <repository>
+            <!-- id必须唯一 -->
+            <id>jboss-reposit3124324ory</id>
+            <!-- 见名知意即可 -->
+            <name>jboss reposit234132ory</name>
+            <!-- 仓库的url地址 -->
+            <url>http://repository.jbos12435342s.org/nexus/content/groups/public-jboss/</url>
+        </repository>
+    </repositories>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-classworlds</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-embedder</artifactId>
+            <version>3.6.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.21</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.jfinal/jfinal -->
+        <!-- https://mvnrepository.com/artifact/org.reflections/reflections -->
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>[0.9.9,0.9.10]</version>
+        </dependency>
+
+
+
+        <!--<dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>[1.2.27]</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>3.0-alpha-1</version>
+        </dependency>-->
+
+
+    </dependencies>
+
+</project>
